@@ -39,7 +39,7 @@ public class S3Constants {
   public static final String S3_CLEANUP_BATCH_SIZE = "storage.s3.cleanup.batchSize";
   public static final String S3_CLEANUP_USE_PARALLEL = "storage.s3.cleanup.useParallel";
 
-  public static final int DEFAULT_S3_URL_LIFETIME_SEC = 60;
+  public static final int DEFAULT_S3_URL_LIFETIME_SEC = 600;
   public static final int DEFAULT_S3_RETRY_DELAY_ON_ERROR_MS = 1000;
   public static final int DEFAULT_S3_NUMBER_OF_RETRIES_ON_ERROR = 5;
 
